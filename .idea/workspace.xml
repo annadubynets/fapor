@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="864a7f24-dd7a-4316-82ab-4d2571a88ecf" name="Default Changelist" comment="" />
+    <list default="true" id="864a7f24-dd7a-4316-82ab-4d2571a88ecf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/media-queries.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_light.psd" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,10 +24,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZOPFjHSRCSh53j0cPS1CFjluhq" />
   <component name="ProjectViewState">
@@ -30,6 +41,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -78,6 +90,20 @@
       <workItem from="1587384936747" duration="1890000" />
       <workItem from="1587387288160" duration="674000" />
       <workItem from="1587389695778" duration="5301000" />
+      <workItem from="1587406408070" duration="6805000" />
+      <workItem from="1587583138436" duration="16000" />
+      <workItem from="1587804438713" duration="3010000" />
+      <workItem from="1587844810999" duration="15000" />
+      <workItem from="1587926182428" duration="88000" />
+      <workItem from="1587926448164" duration="149000" />
+      <workItem from="1587929353294" duration="48000" />
+      <workItem from="1587976138054" duration="69000" />
+      <workItem from="1588060838942" duration="92000" />
+      <workItem from="1588852724682" duration="494000" />
+      <workItem from="1588853683426" duration="474000" />
+      <workItem from="1588874903544" duration="931000" />
+      <workItem from="1588876662515" duration="292000" />
+      <workItem from="1588942618015" duration="947000" />
     </task>
     <servers />
   </component>

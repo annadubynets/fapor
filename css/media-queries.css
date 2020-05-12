@@ -1,0 +1,34 @@
+@media only screen and (max-width: 767px) {
+    .container {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .header-flex-container {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .footer-top-flex-container {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .footer-bottom-flex-container {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {}
+@media only screen and (max-width: 360px) {}
+@media only screen and (max-width: 320px) {}

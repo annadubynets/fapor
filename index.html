@@ -10,116 +10,128 @@
     <link rel="stylesheet" href="fontawesome-free-5.0.8/web-fonts-with-css/css/fontawesome-all.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-queries.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="header-flex-container">
-                <a href="#"> <img src="images/logo.png" alt="logo" class="logo"></a>
 
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="active">
-                            <a href="#">About</a>
-                        </li>
-                        <li>
-                            <a href="#">Service</a>
-                        </li>
-                        <li>
-                            <a href="#">Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="#">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
-    <div class="section">
+    <div class="nav__bar">
         <div class="container">
-            <h1>More About US</h1>
-            <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their <br> design needs. Whether you need to create a brand from scratch, including marketing materials and a beautiful.
+            <a href="#" class="nav__trigger">
+                <div class="bars"></div>
+            </a>
         </div>
     </div>
 
-    <div class="management-section">
-        <div class="wrapper">
-            <h2>Management</h2>
+<main class="main">
+    <section class="hero">
+        <header>
+            <div class="container">
+                <div class="header-flex-container">
+                    <a href="#"> <img src="images/logo.png" alt="logo" class="logo"></a>
 
-            <div class="management-container">
-                <img src="images/marketing_manager.png">
-                <div>
-                    <div class="management-float-left">
-                        <p class="management-name">Courteney Cox</p>
-                        <p class="management-position">Marketing Manager</p>
-                    </div>
-
-                    <div class="management-float-right">
-                        <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" title="Google"><i class="fab fa-google-plus-g"></i></a>
-                    </div>
+                    <!--<nav>
+                        <ul>
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="active">
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="#">Service</a>
+                            </li>
+                            <li>
+                                <a href="#">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>-->
                 </div>
-                <div class="clear"></div>
             </div>
-
-            <div class="management-container">
-                <img src="images/finance_manager.png">
-                <div>
-                    <div class="management-float-left">
-                        <p class="management-name">Matt LeBlanc</p>
-                        <p class="management-position">Finance Manager</p>
-                    </div>
-
-                    <div class="management-float-right">
-                        <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" title="Google"><i class="fab fa-google-plus-g"></i></a>
-                    </div>
-                </div>
-                <div class="clear"></div>
-            </div>
-
-            <div class="management-container">
-                <img src="images/creative_director.png">
-                <div>
-                    <div class="management-float-left">
-                        <p class="management-name">David Schwimmer</p>
-                        <p class="management-position">Creative Director</p>
-                    </div>
-                    <div class="management-float-right">
-                        <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" title="Google"><i class="fab fa-google-plus-g"></i></a>
-                    </div>
-                </div>
-                <div class="clear"></div>
-            </div>
-            <div class="clear"></div>
-
-            <div class="show-all-center">
-                <a class="show-all-btn" href="#" target="_blank">Show All</a>
+        </header>
+        <div class="section">
+            <div class="container">
+                <h1>More About US</h1>
+                <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their <br> design needs. Whether you need to create a brand from scratch, including marketing materials and a beautiful.
             </div>
         </div>
-    </div>
 
-    <div class="client-section">
+        <div class="management-section">
+            <div class="wrapper">
+                <h2>Management</h2>
+                <div class="management-flex-container">
+                    <div>
+                        <img src="images/marketing_manager.png">
+                        <div class="management-info">
+                            <div>
+                                <p class="management-name">Courteney Cox</p>
+                                <p class="management-position">Marketing Manager</p>
+                            </div>
+                            <div>
+                                <a href="#" title="Facebook" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" title="Twitter" class="social-link"><i class="fab fa-twitter"></i></a>
+                                <a href="#" title="Google" class="social-link"><i class="fab fa-google-plus-g"></i></a>
+                            </div>
+                        </div>
+                    </div>
 
-            <h3>WHAT OUR CLIENTS SAY</h3>
+                    <div>
+                        <img src="images/finance_manager.png">
+                        <div class="management-info">
+                            <div>
+                                <p class="management-name">Matt LeBlanc</p>
+                                <p class="management-position">Finance Manager</p>
+                            </div>
+
+                            <div>
+                                <a href="#" title="Facebook" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" title="Twitter" class="social-link"><i class="fab fa-twitter"></i></a>
+                                <a href="#" title="Google" class="social-link"><i class="fab fa-google-plus-g"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="images/creative_director.png">
+                        <div class="management-info">
+                            <div>
+                                <p class="management-name">David Schwimmer</p>
+                                <p class="management-position">Creative Director</p>
+                            </div>
+                            <div>
+                                <a href="#" title="Facebook" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" title="Twitter" class="social-link"><i class="fab fa-twitter"></i></a>
+                                <a href="#" title="Google" class="social-link"><i class="fab fa-google-plus-g"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="show-all-center">
+                    <a class="show-all-btn" href="#" target="_blank">Show All</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="client-section">
+
+            <h3 class="client-heading">WHAT OUR CLIENTS SAY</h3>
             <div class="owl-carousel">
                 <div>
                     <div class="client-img">
                         <img src="images/client.png" class="img-client">
                     </div>
+                    <div>
                     <p class="client-description">Praesent tincidunt molestie libero mollis porta. Faucibus leo, ac aliquet magna. Vivamus ullamcorper mollis leo, at sagittis mi <br> pellentesque quis. Praesent nec elit tristique.
                     </p>
                     <p class="client-name">Larry Jane</p>
                     <p class="client-position">General Manager</p>
+                    </div>
                 </div>
 
                 <div>
@@ -143,51 +155,67 @@
                 </div>
             </div>
 
-    </div>
+        </div>
 
-    <footer>
-        <div class="footer-top">
-            <div class="wrapper">
-                <div class="contact-float">
-                    <h4>ABOUT FAPOR</h4>
-                    <p>We are a fairly small, flexible design studio that<br> designs for print and web. We work flexibly with<br> clients to fulfil their design needs. Whether you <br> need to create a brand from scratch, including <br> marketing materials and a beautiful.</p>
-                </div>
-
-                <div class="contact-float">
-                    <h4>Contact INFO</h4>
-                    <p>PO Box 17122 Nollins Street <br> 5034 Los Angelos</p>
-                    <p class="description-padding">Phone: 1800555.0658 <br> Email: support@fapor.com <br> Web: fapor.com</p>
-                </div>
-
-                <div class="contact-float">
-                    <h4>Subscribe to our newsletter</h4>
-                    <form acttion method="get">
-                        <div class="input-padding">
-                            <input name="email" type="text" placeholder="Enter your email address" class="email-input">
+        <footer>
+            <div class="footer-top">
+                <div class="wrapper">
+                    <div class="footer-top-flex-container">
+                        <div class="footer-section">
+                            <h4>ABOUT FAPOR</h4>
+                            <p>We are a fairly small, flexible design studio that<br> designs for print and web. We work flexibly with<br> clients to fulfil their design needs. Whether you <br> need to create a brand from scratch, including <br> marketing materials and a beautiful.</p>
                         </div>
 
-                        <button type="submit" class="subscribe-now-btn">SUBSCRIBE NOW</button>
-                    </form>
-                </div>
+                        <div class="footer-section">
+                            <h4>Contact INFO</h4>
+                            <p>PO Box 17122 Nollins Street <br> 5034 Los Angelos</p>
+                            <p class="description-padding">Phone: 1800555.0658 <br> Email: support@fapor.com <br> Web: fapor.com</p>
+                        </div>
 
+                        <div class="footer-section">
+                            <h4>Subscribe to our newsletter</h4>
+                            <form acttion method="get">
+                                <div class="input-padding">
+                                    <input name="email" type="text" placeholder="Enter your email address" class="email-input">
+                                </div>
+
+                                <button type="submit" class="subscribe-now-btn">SUBSCRIBE NOW</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-        </div>
 
-        <div class="footer-bottom">
-            <div class="wrapper">
-                <div class="footer-float-left">
-                    <p>© 2016  Fapor by Respotheme</p>
-                </div>
-                <div class="footer-float-right">
-                    <a href="#" title="Dribble" target="_blank"><i class="fab fa-dribbble"></i></a>
-                    <a href="#" title="Google" target="_blank"><i class="fab fa-google-plus-g"></i></a>
-                    <a href="#" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a href="#" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <div class="footer-bottom">
+                <div class="wrapper">
+                    <div class="footer-bottom-flex-container">
+                        <div>
+                            <p>© 2016  Fapor by Respotheme</p>
+                        </div>
+                        <div class="footer-float-right">
+                            <a href="#" title="Dribble" target="_blank"><i class="fab fa-dribbble"></i></a>
+                            <a href="#" title="Google" target="_blank"><i class="fab fa-google-plus-g"></i></a>
+                            <a href="#" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="#" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </footer>
+    </section>
 
-        </div>
-    </footer>
+</main>
+
+<nav class="nav">
+    <ul class="nav__list">
+        <li class="nav__item"><a href="#">Home</a></li>
+        <li class="nav__item"><a href="#">About</a></li>
+        <li class="nav__item"><a href="#">Service</a></li>
+        <li class="nav__item"><a href="#">Portfolio</a></li>
+        <li class="nav__item"><a href="#">Contact</a></li>
+    </ul>
+</nav>
 
     <script
             src="https://code.jquery.com/jquery-2.2.4.min.js"
@@ -195,6 +223,7 @@
             crossorigin="anonymous">
     </script>
     <script src="js/owl.carousel.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="js/scripts.js"></script>
 </body>
 </html>
